@@ -1,0 +1,86 @@
+@import 'hs-flex';
+
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+        -ms-border-radius: @radius;
+            border-radius: @radius;
+  }
+  .box-shadow(@value) {
+      -webkit-box-shadow: @value;
+         -moz-box-shadow: @value;
+              box-shadow: @value;
+  }
+  
+  .transform(@value) {
+        transform: (@value);
+      -webkit-transform: (@value);
+      -moz-transform: (@value);
+      -o-transform: (@value);
+      -ms-transform: (@value);
+  } 
+  .transition(@value) {
+        transition: @value;
+        -webkit-transition: @value;
+      -moz-transition: @value;
+      -o-transition: @value;
+      -ms-transition: @value;
+  }    
+.animation(@value) {
+    -webkit-animation: @value;
+    -moz-animation:    @value;
+    -o-animation:      @value;
+    animation:         @value;
+  }
+  .placeholder-color(@value) {
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: @value;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: @value;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: @value;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: @value;
+      }
+  } 
+  
+  .placeholder-family(@value) {
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-family: @value;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        font-family: @value;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        font-family: @value;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        font-family: @value;
+      }
+  } 
+  .placeholder-size(@value) {
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: @value;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        font-size: @value;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        font-size: @value;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        font-size: @value;
+      }
+  } 
+  .filter(@value) {    
+    -webkit-filter: blur(@value);
+      -moz-filter: blur(@value);
+      -o-filter: blur(@value);
+      -ms-filter: blur(@value);
+      filter: blur(@value);
+  } 
+  
+  

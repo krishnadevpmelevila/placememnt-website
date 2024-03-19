@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'lato-regular';
+  src: url(../fonts/lato-regular.woff);
+}
+@font-face {
+  font-family: 'lato-semibold';
+  src: url(../fonts/lato-semibold.woff);
+}
+@font-face {
+  font-family: 'lato-bold';
+  src: url(../fonts/lato-bold.woff);
+}
+@font-face {
+  font-family: 'lato-light';
+  src: url(../fonts/lato-light.woff);
+}
+html {
+  font-size: 16/16rem;
+  -webkit-text-size-adjust: auto;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
